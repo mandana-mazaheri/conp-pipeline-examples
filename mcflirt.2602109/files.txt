@@ -1,0 +1,9 @@
+conp-dataset/projects/openpain/cbp_resting/cbp01/bold/task001_run001/bold.nii.gz
+conp-dataset/projects/openpain/thermal/cbp001/bold/task001_run001/bold.nii.gz
+conp-dataset/projects/openpain/BrainNetworkChange_Mano/sub_01_control_site_1/func/sub_01_control_site_1_task_rest_acq_singleband_bold.nii.gz
+conp-dataset/projects/openpain/placebo_1/PL001/visit2/funct/PL001_visit2_resting1.nii.gz
+conp-dataset/projects/openpain/placebo_predict_tetreault/sub-01/func/sub-01_task-rest_bold.nii.gz
+conp-dataset/projects/openpain/subacute_longitudinal_study/sub-001/ses-visit1/func/sub-001_ses-visit1_task-mv_bold.nii.gz
+conp-dataset/projects/preventad-open-bids/BIDS_dataset/sub-1004359/ses-PREBL00/func/sub-1004359_ses-PREBL00_task-rest_run-001_bold.nii.gz
+conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-013/func/sub-032633_ses-013_task-rest_run-1_bold.nii.gz
+conp-dataset/projects/visual-working-memory/sub-01/func/sub-01_task-WM_run-01_bold.nii.gz
