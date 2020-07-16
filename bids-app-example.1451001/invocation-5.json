@@ -1,0 +1,6 @@
+{
+    "bids_dir": "conp-dataset/projects/SIMON-dataset/data_BIDS",
+    "participant_label": [ "sub-032633" ],
+    "output_dir_name": "results",
+    "analysis_level": "participant"
+}

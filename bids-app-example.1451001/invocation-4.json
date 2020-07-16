@@ -1,0 +1,6 @@
+{
+    "bids_dir": "conp-dataset/projects/preventad-open-bids/BIDS_dataset",
+    "participant_label": [ "sub-1004359" ],
+    "output_dir_name": "results",
+    "analysis_level": "participant"
+}

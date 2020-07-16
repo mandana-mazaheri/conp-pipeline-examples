@@ -1,0 +1,6 @@
+{
+    "bids_dir": "BIDSDIR",
+    "participant_label": [ "label" ],
+    "output_dir_name": "results",
+    "analysis_level": "participant"
+}

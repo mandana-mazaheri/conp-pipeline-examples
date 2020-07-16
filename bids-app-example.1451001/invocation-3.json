@@ -1,0 +1,6 @@
+{
+    "bids_dir": "conp-dataset/projects/openpain/subacute_longitudinal_study",
+    "participant_label": [ "sub-001" ],
+    "output_dir_name": "results",
+    "analysis_level": "participant"
+}

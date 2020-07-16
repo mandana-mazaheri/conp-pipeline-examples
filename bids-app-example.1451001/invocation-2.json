@@ -1,0 +1,6 @@
+{
+    "bids_dir": "conp-dataset/projects/openpain/placebo_predict_tetreault",
+    "participant_label": [ "sub-01" ],
+    "output_dir_name": "results",
+    "analysis_level": "participant"
+}

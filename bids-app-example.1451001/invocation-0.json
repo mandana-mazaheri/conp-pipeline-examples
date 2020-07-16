@@ -1,0 +1,6 @@
+{
+    "bids_dir": "conp-dataset/projects/openpain/BrainNetworkChange_Mano",
+    "participant_label": [ "sub_01_control_site_1" ],
+    "output_dir_name": "results",
+    "analysis_level": "participant"
+}
