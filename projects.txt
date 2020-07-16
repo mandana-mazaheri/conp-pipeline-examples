@@ -1,0 +1,55 @@
+# Genetics
+../conp-dataset/projects/1000GenomesProject
+../conp-dataset/projects/Brainspan
+../conp-dataset/projects/celltypes
+../conp-dataset/projects/mcgill-emc-rna-seq-experiment
+../conp-dataset/projects/mm_neo_atlas
+../conp-dataset/projects/refseq
+
+
+# BigBrain
+../conp-dataset/projects/BigBrain
+../conp-dataset/projects/BigBrain_3DClassifiedVolumes
+../conp-dataset/projects/BigBrain_3DSurfaces
+../conp-dataset/projects/Khanlab/BigBrainHippoUnfold
+../conp-dataset/projects/Khanlab/BigBrainMRICoreg
+../conp-dataset/projects/nhpatlas
+
+# MRI
+
+## anat
+../conp-dataset/projects/Khanlab/HCPUR100-Template
+../conp-dataset/projects/MRI_and_unbiased_averages_of_wild_muskrats__Ondatra_zibethicus__and_red_squirrels__Tamiasciurus_hudsonicus_
+
+## func
+../conp-dataset/projects/openpain/cbp_resting
+../conp-dataset/projects/openpain/thermal
+
+### BIDS
+../conp-dataset/projects/openpain/BrainNetworkChange_Mano
+../conp-dataset/projects/openpain/placebo_1
+../conp-dataset/projects/openpain/placebo_predict_tetreault
+../conp-dataset/projects/openpain/subacute_longitudinal_study
+../conp-dataset/projects/preventad-open-bids
+../conp-dataset/projects/SIMON-dataset
+../conp-dataset/projects/visual-working-memory
+
+
+### MINC 
+../conp-dataset/projects/multicenter-phantom
+../conp-dataset/projects/PERFORM_Dataset__one_control_subject
+../conp-dataset/projects/preventad-open
+
+### pre-processed
+../conp-dataset/projects/Learning_Naturalistic_Structure__Processed_fMRI_dataset
+
+# Other
+../conp-dataset/projects/Comparing_Perturbation_Modes_for_Evaluating_Instabilities_in_Neuroimaging__Processed_NKI_RS_Subset__08_2019_
+../conp-dataset/projects/Intracellular_Recordings_of_Murine_Neocortical_Neurons
+../conp-dataset/projects/VFA_T1_mapping___RTHawk__open__vs_Siemens__commercial_
+
+
+# Empty
+../conp-dataset/projects/cneuromod
+../conp-dataset/projects/Reusing-Neuro-Data
+

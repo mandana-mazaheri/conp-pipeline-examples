@@ -1,0 +1,4 @@
+{
+    "infile": "conp-dataset/projects/openpain/placebo_predict_tetreault/sub-01/anat/sub-01_T1w.nii.gz",
+    "maskfile": "mask.nii.gz"
+}

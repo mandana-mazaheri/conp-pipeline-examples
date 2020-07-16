@@ -1,0 +1,4 @@
+{
+    "infile": "conp-dataset/projects/openpain/BrainNetworkChange_Mano/sub_01_control_site_1/anat/sub_01_control_site_1_T1w.nii.gz",
+    "maskfile": "mask.nii.gz"
+}

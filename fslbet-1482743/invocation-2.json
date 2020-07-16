@@ -1,0 +1,4 @@
+{
+    "infile": "conp-dataset/projects/openpain/cbp_resting/cbp01/t1/t1.nii.gz",
+    "maskfile": "mask.nii.gz"
+}
