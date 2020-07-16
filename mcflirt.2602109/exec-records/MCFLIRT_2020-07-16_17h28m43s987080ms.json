@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "name": "MCFLIRT",
+        "descriptor-doi": "10.5281/zenodo.2602109",
+        "date-time": "2020-07-16_17h28m43s987080ms"
+    },
+    "public-invocation": {
+        "in_file": {
+            "file-name": "PL001_visit2_resting1.nii.gz",
+            "md5sum": "76f1ad8b3377332d914866402619e25f"
+        }
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "mcflirt -in conp-dataset/projects/openpain/placebo_1/PL001/visit2/funct/PL001_visit2_resting1.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "name": "MCFLIRT",
+        "descriptor-doi": "10.5281/zenodo.2602109",
+        "date-time": "2020-07-16_17h30m14s163775ms"
+    },
+    "public-invocation": {
+        "in_file": {
+            "file-name": "sub-001_ses-visit1_task-mv_bold.nii.gz",
+            "md5sum": "9624c061d61f527612e2267918f4709f"
+        }
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "mcflirt -in conp-dataset/projects/openpain/subacute_longitudinal_study/sub-001/ses-visit1/func/sub-001_ses-visit1_task-mv_bold.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

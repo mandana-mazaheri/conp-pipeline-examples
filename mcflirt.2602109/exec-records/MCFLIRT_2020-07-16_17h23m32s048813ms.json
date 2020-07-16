@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "name": "MCFLIRT",
+        "descriptor-doi": "10.5281/zenodo.2602109",
+        "date-time": "2020-07-16_17h23m32s048813ms"
+    },
+    "public-invocation": {
+        "in_file": {
+            "file-name": "bold.nii.gz",
+            "not_found": true
+        }
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 134,
+        "error-message": "",
+        "shell-command": "mcflirt -in conp-dataset/projects/openpain/cbp_resting/cbp01/bold/task001_run001/bold.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

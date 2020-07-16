@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "name": "MCFLIRT",
+        "descriptor-doi": "10.5281/zenodo.2602109",
+        "date-time": "2020-07-16_17h25m22s576368ms"
+    },
+    "public-invocation": {
+        "in_file": {
+            "file-name": "sub_01_control_site_1_task_rest_acq_singleband_bold.nii.gz",
+            "md5sum": "02b9bba752d80e83bfc7537368a1fb23"
+        }
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "mcflirt -in conp-dataset/projects/openpain/BrainNetworkChange_Mano/sub_01_control_site_1/func/sub_01_control_site_1_task_rest_acq_singleband_bold.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "name": "MCFLIRT",
+        "descriptor-doi": "10.5281/zenodo.2602109",
+        "date-time": "2020-07-16_17h24m09s482074ms"
+    },
+    "public-invocation": {
+        "in_file": {
+            "file-name": "bold.nii.gz",
+            "md5sum": "25bfe148594c5bf2ace8d4b712ed719b"
+        }
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "mcflirt -in conp-dataset/projects/openpain/thermal/cbp001/bold/task001_run001/bold.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

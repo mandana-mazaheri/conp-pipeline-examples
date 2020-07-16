@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "name": "MCFLIRT",
+        "descriptor-doi": "10.5281/zenodo.2602109",
+        "date-time": "2020-07-16_17h30m52s344793ms"
+    },
+    "public-invocation": {
+        "in_file": {
+            "file-name": "sub-1004359_ses-PREBL00_task-rest_run-001_bold.nii.gz",
+            "md5sum": "82df21f6df30677c1ad4454f3b80b4bb"
+        }
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "mcflirt -in conp-dataset/projects/preventad-open-bids/BIDS_dataset/sub-1004359/ses-PREBL00/func/sub-1004359_ses-PREBL00_task-rest_run-001_bold.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

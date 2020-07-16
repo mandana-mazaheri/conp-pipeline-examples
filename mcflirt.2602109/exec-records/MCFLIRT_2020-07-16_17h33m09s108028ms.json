@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "name": "MCFLIRT",
+        "descriptor-doi": "10.5281/zenodo.2602109",
+        "date-time": "2020-07-16_17h33m09s108028ms"
+    },
+    "public-invocation": {
+        "in_file": {
+            "file-name": "sub-01_task-WM_run-01_bold.nii.gz",
+            "md5sum": "3582085a2a73648475ad838afbb58f7d"
+        }
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "mcflirt -in conp-dataset/projects/visual-working-memory/sub-01/func/sub-01_task-WM_run-01_bold.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

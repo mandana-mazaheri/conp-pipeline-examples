@@ -1,0 +1,24 @@
+{
+    "summary": {
+        "name": "fsl_bet",
+        "descriptor-doi": "10.5281/zenodo.1482743",
+        "date-time": "2020-07-16_17h22m44s242764ms"
+    },
+    "public-invocation": {
+        "infile": {
+            "file-name": "sub-001_ses-visit1_T1w.nii.gz",
+            "md5sum": "bc5858d90e3b71e8f742e49e81785e65"
+        },
+        "maskfile": "mask.nii.gz"
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "bet conp-dataset/projects/openpain/subacute_longitudinal_study/sub-001/ses-visit1/anat/sub-001_ses-visit1_T1w.nii.gz mask.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

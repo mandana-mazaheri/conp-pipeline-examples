@@ -1,0 +1,24 @@
+{
+    "summary": {
+        "name": "fsl_bet",
+        "descriptor-doi": "10.5281/zenodo.1482743",
+        "date-time": "2020-07-16_17h22m07s688351ms"
+    },
+    "public-invocation": {
+        "infile": {
+            "file-name": "muskrat.nii.gz",
+            "md5sum": "5b06f3b2fb205de4d58674cc018c1043"
+        },
+        "maskfile": "mask.nii.gz"
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "bet conp-dataset/projects/MRI_and_unbiased_averages_of_wild_muskrats__Ondatra_zibethicus__and_red_squirrels__Tamiasciurus_hudsonicus_/data_release/muskrat/muskrat.nii.gz mask.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

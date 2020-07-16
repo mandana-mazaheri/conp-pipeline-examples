@@ -1,0 +1,23 @@
+{
+    "summary": {
+        "name": "MCFLIRT",
+        "descriptor-doi": "10.5281/zenodo.2602109",
+        "date-time": "2020-07-16_17h31m51s034407ms"
+    },
+    "public-invocation": {
+        "in_file": {
+            "file-name": "sub-032633_ses-013_task-rest_run-1_bold.nii.gz",
+            "md5sum": "21a4f421c6c76200409fcf2bcfd49fa0"
+        }
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "mcflirt -in conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-013/func/sub-032633_ses-013_task-rest_run-1_bold.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

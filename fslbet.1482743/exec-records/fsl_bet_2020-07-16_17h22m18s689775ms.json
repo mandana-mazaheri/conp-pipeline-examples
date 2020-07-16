@@ -1,0 +1,24 @@
+{
+    "summary": {
+        "name": "fsl_bet",
+        "descriptor-doi": "10.5281/zenodo.1482743",
+        "date-time": "2020-07-16_17h22m18s689775ms"
+    },
+    "public-invocation": {
+        "infile": {
+            "file-name": "highres001_full_normfilter.nii.gz",
+            "md5sum": "2329ddc6dccd93ff397952deae75c2f7"
+        },
+        "maskfile": "mask.nii.gz"
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "bet conp-dataset/projects/openpain/thermal/cbp001/t1/highres001_full_normfilter.nii.gz mask.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

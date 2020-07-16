@@ -1,0 +1,24 @@
+{
+    "summary": {
+        "name": "fsl_bet",
+        "descriptor-doi": "10.5281/zenodo.1482743",
+        "date-time": "2020-07-16_17h21m58s398153ms"
+    },
+    "public-invocation": {
+        "infile": {
+            "file-name": "sub-01_T1w.nii.gz",
+            "not_found": true
+        },
+        "maskfile": "mask.nii.gz"
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 1,
+        "error-message": "",
+        "shell-command": "bet conp-dataset/projects/visual-working-memory/sub-01/anat/sub-01_T1w.nii.gz mask.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}

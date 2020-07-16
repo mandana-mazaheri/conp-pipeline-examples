@@ -1,0 +1,24 @@
+{
+    "summary": {
+        "name": "fsl_bet",
+        "descriptor-doi": "10.5281/zenodo.1482743",
+        "date-time": "2020-07-16_17h22m33s044366ms"
+    },
+    "public-invocation": {
+        "infile": {
+            "file-name": "PL001_visit2_t1_defaced.nii.gz",
+            "md5sum": "a7f11079d50f7a5d5582986486866d42"
+        },
+        "maskfile": "mask.nii.gz"
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "bet conp-dataset/projects/openpain/placebo_1/PL001/visit2/anat/PL001_visit2_t1_defaced.nii.gz mask.nii.gz",
+        "missing-files": {},
+        "output-files": {}
+    },
+    "additional-information": null
+}
