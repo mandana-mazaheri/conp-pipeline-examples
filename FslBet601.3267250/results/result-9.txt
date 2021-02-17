@@ -1,0 +1,24 @@
+Docker version 17.05.0-ce, build 89658be
+2.5.1-dist
+Image Exception : #63 :: No image files match: /home/mandana/CONP/conp-dataset/projects/multicenter-phantom/phantom_999876_MNI_20130903_t2w_001
+Image Exception : #22 :: Failed to read volume /home/mandana/CONP/conp-dataset/projects/multicenter-phantom/phantom_999876_MNI_20130903_t2w_001
+Error : No image files match: /home/mandana/CONP/conp-dataset/projects/multicenter-phantom/phantom_999876_MNI_20130903_t2w_001
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Failed to read volume /home/mandana/CONP/conp-dataset/projects/multicenter-phantom/phantom_999876_MNI_20130903_t2w_001
+Error : No image files match: /home/mandana/CONP/conp-dataset/projects/multicenter-phantom/phantom_999876_MNI_20130903_t2w_001
+Aborted (core dumped)
+[32mShell command
+bet /home/mandana/CONP/conp-dataset/projects/multicenter-phantom/phantom_999876_MNI_20130903_t2w_001.mnc mask-9
+[32mContainer location
+Local (aces-cbrain-containers-recipes-fsl_v6.0.1.simg)
+[32mContainer command
+singularity exec --cleanenv -B /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -W /home/mandana/CONP/conp-dataset /home/mandana/CONP/conp-dataset/aces-cbrain-containers-recipes-fsl_v6.0.1.simg /home/mandana/CONP/conp-dataset/temp-1290125884755-1613493112724.localExec.boshjob.sh
+[32mExit code
+0
+[32mError message
+[31m
+[32mOutput files
+
+[32mMissing files
+[31m
+

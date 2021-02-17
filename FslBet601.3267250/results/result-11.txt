@@ -1,0 +1,18 @@
+Docker version 17.05.0-ce, build 89658be
+2.5.1-dist
+Segmentation fault (core dumped)
+[32mShell command
+bet /home/mandana/CONP/conp-dataset/projects/Learning_Naturalistic_Structure__Processed_fMRI_dataset/sub-06_space-MNI152NLin2009cAsym_desc-grey_mask.nii.gz mask-11
+[32mContainer location
+Local (aces-cbrain-containers-recipes-fsl_v6.0.1.simg)
+[32mContainer command
+singularity exec --cleanenv -B /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -W /home/mandana/CONP/conp-dataset /home/mandana/CONP/conp-dataset/aces-cbrain-containers-recipes-fsl_v6.0.1.simg /home/mandana/CONP/conp-dataset/temp-531911570909-1613493114708.localExec.boshjob.sh
+[32mExit code
+0
+[32mError message
+[31m
+[32mOutput files
+
+[32mMissing files
+[31m
+

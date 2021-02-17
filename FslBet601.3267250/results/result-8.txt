@@ -1,0 +1,17 @@
+Docker version 17.05.0-ce, build 89658be
+2.5.1-dist
+[32mShell command
+bet /home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-010/anat/sub-032633_ses-010_run-1_T2w.nii.gz mask-8
+[32mContainer location
+Local (aces-cbrain-containers-recipes-fsl_v6.0.1.simg)
+[32mContainer command
+singularity exec --cleanenv -B /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -W /home/mandana/CONP/conp-dataset /home/mandana/CONP/conp-dataset/aces-cbrain-containers-recipes-fsl_v6.0.1.simg /home/mandana/CONP/conp-dataset/temp-1104374751683-1613493110102.localExec.boshjob.sh
+[32mExit code
+0
+[32mError message
+[31m
+[32mOutput files
+	- mask-8.nii.gz (outfile, Required)
+[32mMissing files
+[31m
+

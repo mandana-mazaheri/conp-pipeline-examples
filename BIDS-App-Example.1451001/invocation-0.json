@@ -1,0 +1,6 @@
+
+{
+    "bids_dir": "/home/mandana/CONP/conp-dataset/projects/preventad-open-bids/BIDS_dataset/",
+    "output_dir_name": "/home/mandana/CONP/pipelines/BIDS-App-Example/output/",
+    "analysis_level": "participant"
+}

@@ -1,0 +1,24 @@
+Docker version 17.05.0-ce, build 89658be
+2.5.1-dist
+Image Exception : #63 :: No image files match: /home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_t1w_001_t1w-defaced_001
+Image Exception : #22 :: Failed to read volume /home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_t1w_001_t1w-defaced_001
+Error : No image files match: /home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_t1w_001_t1w-defaced_001
+terminate called after throwing an instance of 'std::runtime_error'
+  what():  Failed to read volume /home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_t1w_001_t1w-defaced_001
+Error : No image files match: /home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_t1w_001_t1w-defaced_001
+Aborted (core dumped)
+[32mShell command
+[0mbet /home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_t1w_001_t1w-defaced_001.mnc INDEX_mask
+[32mContainer location
+[0mLocal (aces-cbrain-containers-recipes-fsl_v6.0.1.simg)
+[32mContainer command
+[0msingularity exec --cleanenv -B /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -W /home/mandana/CONP/conp-dataset /home/mandana/CONP/conp-dataset/aces-cbrain-containers-recipes-fsl_v6.0.1.simg /home/mandana/CONP/conp-dataset/temp-369031290418-1613494801786.localExec.boshjob.sh
+[32mExit code
+[0m0
+[32mError message
+[0m[31m[0m
+[32mOutput files
+[0m
+[32mMissing files
+[0m[31m[0m
+

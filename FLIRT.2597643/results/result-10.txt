@@ -1,0 +1,30 @@
+Docker version 17.05.0-ce, build 89658be
+latest: Pulling from mcin/docker-fsl
+a3ed95caeb02: Already exists
+1534505fcbc6: Already exists
+a3ed95caeb02: Already exists
+a3ed95caeb02: Already exists
+2f340105e18c: Already exists
+8bce4574a6b8: Already exists
+1378af22889c: Already exists
+69f6686a23f1: Already exists
+Digest: sha256:095059aea79eba45f9c9e422ac9641ceee7a1b159ad6bb5f8c4f6bdc13463deb
+Status: Image is up to date for mcin/docker-fsl:latest
+Image Exception : #22 :: ERROR: Could not open image /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced
+terminate called after throwing an instance of 'RBD_COMMON::BaseException'
+/home/mandana/CONP/conp-dataset/temp-739249034945-1613527641888.localExec.boshjob.sh: line 2:     7 Aborted                 (core dumped) flirt -in /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced.nii.gz -ref /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced.nii.gz -out /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced_flirt -omat /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced_flirt.mat
+[32mShell command
+[0mflirt -in /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced.nii.gz -ref /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced.nii.gz -out /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced_flirt -omat /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced_flirt.mat
+[32mContainer location
+[0mPulled from Docker
+[32mContainer command
+[0mdocker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -w /home/mandana/CONP/conp-dataset mcin/docker-fsl:latest /home/mandana/CONP/conp-dataset/temp-739249034945-1613527641888.localExec.boshjob.sh
+[32mExit code
+[0m134
+[32mError message
+[0m[31m[0m
+[32mOutput files
+[0m
+[32mMissing files
+[0m[31m[0m
+

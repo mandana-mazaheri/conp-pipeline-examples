@@ -1,0 +1,20 @@
+Docker version 17.05.0-ce, build 89658be
+2.5.1-dist
+
+Error: input image /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced not valid
+
+[32mShell command
+bet /home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced.nii.gz mask-4
+[32mContainer location
+Local (aces-cbrain-containers-recipes-fsl_v6.0.1.simg)
+[32mContainer command
+singularity exec --cleanenv -B /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -W /home/mandana/CONP/conp-dataset /home/mandana/CONP/conp-dataset/aces-cbrain-containers-recipes-fsl_v6.0.1.simg /home/mandana/CONP/conp-dataset/temp-243969920346-1613493098333.localExec.boshjob.sh
+[32mExit code
+1
+[32mError message
+[31m
+[32mOutput files
+
+[32mMissing files
+[31m
+

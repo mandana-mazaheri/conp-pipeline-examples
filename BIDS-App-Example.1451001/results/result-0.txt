@@ -1,0 +1,59 @@
+Docker version 17.05.0-ce, build 89658be
+Using default tag: latest
+latest: Pulling from bids/example
+30d541b48fc0: Already exists
+8ecd7f80d390: Already exists
+46ec9927bb81: Already exists
+2e67a4d67b44: Already exists
+7d9dd9155488: Already exists
+40cb1f9fa9ae: Already exists
+edeefccca31a: Already exists
+bb150d733733: Already exists
+99544c4416a7: Already exists
+a3ed95caeb02: Already exists
+d59477792847: Already exists
+8e8da7263d79: Already exists
+a3ed95caeb02: Already exists
+Digest: sha256:2718018aebbd1ccd706e01c29df67c513ec7ef7938456b9f62dc13b24a68cb9d
+Status: Image is up to date for bids/example:latest
+	1: This file is not part of the BIDS specification, make sure it isn't included in the dataset by accident. Data derivatives (processed data) should be placed in /derivatives folder. (code: 1 - NOT_INCLUDED)
+		/.bids-validator-config.json
+			Evidence: .bids-validator-config.json
+		/participants.json
+			Evidence: participants.json
+		/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w_flirt.mat
+			Evidence: sub-9962084_ses-NAPEN00_run-001_T1w_flirt.mat
+		/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w_flirt.nii.gz
+			Evidence: sub-9962084_ses-NAPEN00_run-001_T1w_flirt.nii.gz
+		/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w_to_sub-9962084_ses-NAPEN00_run-001_T1w.log
+			Evidence: sub-9962084_ses-NAPEN00_run-001_T1w_to_sub-9962084_ses-NAPEN00_run-001_T1w.log
+		/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w_warpcoef.nii.gz
+			Evidence: sub-9962084_ses-NAPEN00_run-001_T1w_warpcoef.nii.gz
+
+	2: Nifti file's header field for unit information for x, y, z, and t dimensions empty or too short (code: 41 - NIFTI_UNIT)
+		/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_FLAIR.nii.gz
+		/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w.nii.gz
+
+        Summary:                 Available Tasks:        Available Modalities: 
+        14 Files, 61.95MB                                FLAIR                 
+        1 - Subject                                      T1w                   
+        1 - Session                                                            
+
+
+bet /home/mandana/CONP/conp-dataset/projects/preventad-open-bids/BIDS_dataset/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w.nii.gz /home/mandana/CONP/pipelines/BIDS-App-Example/output/sub-9962084_ses-NAPEN00_run-001_brain.nii.gz
+
+[32mShell command
+mkdir -p /home/mandana/CONP/pipelines/BIDS-App-Example/output/; /run.py /home/mandana/CONP/conp-dataset/projects/preventad-open-bids/BIDS_dataset/ /home/mandana/CONP/pipelines/BIDS-App-Example/output/ participant
+[32mContainer location
+Pulled from Docker
+[32mContainer command
+docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -w /home/mandana/CONP/conp-dataset bids/example /home/mandana/CONP/conp-dataset/temp-232199150058-1613260836998.localExec.boshjob.sh
+[32mExit code
+0
+[32mError message
+[31m
+[32mOutput files
+	- /home/mandana/CONP/pipelines/BIDS-App-Example/output/ (output_dir, Required)
+[32mMissing files
+[31m
+

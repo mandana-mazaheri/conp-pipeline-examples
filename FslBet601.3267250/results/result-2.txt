@@ -1,0 +1,17 @@
+Docker version 17.05.0-ce, build 89658be
+2.5.1-dist
+[32mShell command
+bet /home/mandana/CONP/conp-dataset/projects/openpain/thermal/healthy010/t1/highres001_full_normfilter.nii.gz mask-2
+[32mContainer location
+Local (aces-cbrain-containers-recipes-fsl_v6.0.1.simg)
+[32mContainer command
+singularity exec --cleanenv -B /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -W /home/mandana/CONP/conp-dataset /home/mandana/CONP/conp-dataset/aces-cbrain-containers-recipes-fsl_v6.0.1.simg /home/mandana/CONP/conp-dataset/temp-1468899620504-1613493089926.localExec.boshjob.sh
+[32mExit code
+0
+[32mError message
+[31m
+[32mOutput files
+	- mask-2.nii.gz (outfile, Required)
+[32mMissing files
+[31m
+

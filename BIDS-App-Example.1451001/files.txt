@@ -1,0 +1,2 @@
+/home/mandana/CONP/conp-dataset/projects/preventad-open-bids/BIDS_dataset/
+/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/
