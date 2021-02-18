@@ -1,0 +1,27 @@
+Docker version 17.05.0-ce, build 89658be
+latest: Pulling from mcin/docker-fsl
+a3ed95caeb02: Already exists
+1534505fcbc6: Already exists
+a3ed95caeb02: Already exists
+a3ed95caeb02: Already exists
+2f340105e18c: Already exists
+8bce4574a6b8: Already exists
+1378af22889c: Already exists
+69f6686a23f1: Already exists
+Digest: sha256:095059aea79eba45f9c9e422ac9641ceee7a1b159ad6bb5f8c4f6bdc13463deb
+Status: Image is up to date for mcin/docker-fsl:latest
+[32mShell command
+bet /home/mandana/CONP/conp-dataset/projects/Khanlab/HCPUR100-Template/sub-HCPUR100/anat/sub-HCPUR100_t1w.nii.gz mask.nii.gz
+[32mContainer location
+Pulled from Docker
+[32mContainer command
+docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP:/home/mandana/CONP -w /home/mandana/CONP mcin/docker-fsl:latest /home/mandana/CONP/temp-544581484669-1613058536456.localExec.boshjob.sh
+[32mExit code
+0
+[32mError message
+
+[32mOutput files
+
+[32mMissing files
+
+

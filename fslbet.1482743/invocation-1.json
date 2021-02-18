@@ -1,4 +1,5 @@
+
 {
-    "infile": "conp-dataset/projects/MRI_and_unbiased_averages_of_wild_muskrats__Ondatra_zibethicus__and_red_squirrels__Tamiasciurus_hudsonicus_/data_release/muskrat/muskrat.nii.gz",
-    "maskfile": "mask.nii.gz"
+"infile": "/home/mandana/CONP/conp-dataset/projects/openpain/cbp_resting/cbp10/t1/t1.nii.gz",
+"maskfile": "mask.nii.gz"
 }

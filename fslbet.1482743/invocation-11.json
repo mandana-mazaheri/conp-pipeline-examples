@@ -1,0 +1,5 @@
+
+{
+"infile": "/home/mandana/CONP/conp-dataset/projects/multicenter-phantom/phantom_397552_SLC_20150814_bold_001.mnc",
+"maskfile": "mask.nii.gz"
+}

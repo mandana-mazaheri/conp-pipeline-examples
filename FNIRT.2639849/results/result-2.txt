@@ -1,0 +1,27 @@
+Docker version 17.05.0-ce, build 89658be
+latest: Pulling from mcin/docker-fsl
+a3ed95caeb02: Already exists
+1534505fcbc6: Already exists
+a3ed95caeb02: Already exists
+a3ed95caeb02: Already exists
+2f340105e18c: Already exists
+8bce4574a6b8: Already exists
+1378af22889c: Already exists
+69f6686a23f1: Already exists
+Digest: sha256:095059aea79eba45f9c9e422ac9641ceee7a1b159ad6bb5f8c4f6bdc13463deb
+Status: Image is up to date for mcin/docker-fsl:latest
+Shell command
+fnirt --in=/home/mandana/CONP/conp-dataset/projects/openpain/placebo_predict_tetreault/sub-01/anat/sub-01_T1w.nii.gz --ref=/home/mandana/CONP/conp-dataset/projects/openpain/placebo_predict_tetreault/sub-01/anat/sub-01_T1w.nii.gz
+Container location
+Pulled from Docker
+Container command
+docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -w /home/mandana/CONP/conp-dataset mcin/docker-fsl:latest /home/mandana/CONP/conp-dataset/temp-1535135526949-1613145483431.localExec.boshjob.sh
+Exit code
+0
+Error message
+
+Output files
+
+Missing files
+
+

@@ -1,0 +1,33 @@
+Docker version 17.05.0-ce, build 89658be
+[ INFO ] Found cached file at /home/mandana/.cache/boutiques/production/zenodo-2639849.json
+[ INFO ] Input: {'in_file': '/home/mandana/CONP/conp-dataset/projects/openpain/thermal/healthy010/t1/highres001_full_normfilter.nii.gz', 'ref_file': '/home/mandana/CONP/conp-dataset/projects/openpain/thermal/healthy010/t1/highres001_full_normfilter.nii.gz'}
+[ INFO ] Running: docker pull mcin/docker-fsl:latest
+latest: Pulling from mcin/docker-fsl
+a3ed95caeb02: Already exists
+1534505fcbc6: Already exists
+a3ed95caeb02: Already exists
+a3ed95caeb02: Already exists
+2f340105e18c: Already exists
+8bce4574a6b8: Already exists
+1378af22889c: Already exists
+69f6686a23f1: Already exists
+Digest: sha256:095059aea79eba45f9c9e422ac9641ceee7a1b159ad6bb5f8c4f6bdc13463deb
+Status: Image is up to date for mcin/docker-fsl:latest
+[ INFO ] Running: chmod 755 /home/mandana/CONP/conp-dataset/temp-340473661268-1613534319876.localExec.boshjob.sh
+[ INFO ] Running: docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -w /home/mandana/CONP/conp-dataset mcin/docker-fsl:latest /home/mandana/CONP/conp-dataset/temp-340473661268-1613534319876.localExec.boshjob.sh
+[ INFO ] Data capture from execution saved to cache as FNIRT_2021-02-16_22h58m43s492540ms.json
+[32mShell command
+[0mfnirt --in=/home/mandana/CONP/conp-dataset/projects/openpain/thermal/healthy010/t1/highres001_full_normfilter.nii.gz --ref=/home/mandana/CONP/conp-dataset/projects/openpain/thermal/healthy010/t1/highres001_full_normfilter.nii.gz
+[32mContainer location
+[0mPulled from Docker
+[32mContainer command
+[0mdocker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -w /home/mandana/CONP/conp-dataset mcin/docker-fsl:latest /home/mandana/CONP/conp-dataset/temp-340473661268-1613534319876.localExec.boshjob.sh
+[32mExit code
+[0m0
+[32mError message
+[0m[31m[0m
+[32mOutput files
+[0m
+[32mMissing files
+[0m[31m[0m
+

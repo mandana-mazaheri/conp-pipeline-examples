@@ -1,0 +1,29 @@
+{
+    "summary": {
+        "name": "fslstats",
+        "descriptor-doi": "10.5281/zenodo.3240521",
+        "date-time": "2020-07-16_17h23m23s696858ms"
+    },
+    "public-invocation": {
+        "input_file": {
+            "file-name": "sub-001_ses-visit1_T1w.nii.gz",
+            "md5sum": "bc5858d90e3b71e8f742e49e81785e65"
+        },
+        "V": true
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "fslstats conp-dataset/projects/openpain/subacute_longitudinal_study/sub-001/ses-visit1/anat/sub-001_ses-visit1_T1w.nii.gz -V > output.txt",
+        "missing-files": {},
+        "output-files": {
+            "output": {
+                "file-name": "output.txt",
+                "md5sum": "b62c270d6da10b1ce287e75b569ab958"
+            }
+        }
+    },
+    "additional-information": null
+}

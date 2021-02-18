@@ -1,4 +1,5 @@
+
 {
-    "infile": "FILENAME",
-    "maskfile": "mask.nii.gz"
+"infile": "FILENAME",
+"maskfile": "mask.nii.gz"
 }

@@ -1,0 +1,29 @@
+{
+    "summary": {
+        "name": "fslstats",
+        "descriptor-doi": "10.5281/zenodo.3240521",
+        "date-time": "2020-07-16_17h23m20s779740ms"
+    },
+    "public-invocation": {
+        "input_file": {
+            "file-name": "sub-01_T1w.nii.gz",
+            "md5sum": "1a15c8065b8eb994765065ad2ee93ca4"
+        },
+        "V": true
+    },
+    "public-output": {
+        "stdout": null,
+        "stderr": null,
+        "exit-code": 0,
+        "error-message": "",
+        "shell-command": "fslstats conp-dataset/projects/openpain/placebo_predict_tetreault/sub-01/anat/sub-01_T1w.nii.gz -V > output.txt",
+        "missing-files": {},
+        "output-files": {
+            "output": {
+                "file-name": "output.txt",
+                "md5sum": "1b04e50b388513ec69b2f56ef0bd72e5"
+            }
+        }
+    },
+    "additional-information": null
+}

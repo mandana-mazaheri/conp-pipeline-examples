@@ -1,4 +1,5 @@
+
 {
-    "infile": "conp-dataset/projects/openpain/thermal/cbp001/t1/highres001_full_normfilter.nii.gz",
-    "maskfile": "mask.nii.gz"
+"infile": "/home/mandana/CONP/conp-dataset/projects/openpain/placebo_predict_tetreault/sub-01/anat/sub-01_T1w.nii.gz",
+"maskfile": "mask.nii.gz"
 }

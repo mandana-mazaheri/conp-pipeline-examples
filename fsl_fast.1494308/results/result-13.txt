@@ -1,0 +1,36 @@
+Docker version 17.05.0-ce, build 89658be
+[ INFO ] Found cached file at /home/mandana/.cache/boutiques/production/zenodo-1494308.json
+[ INFO ] Input: {'output_basename': 'fast', 'in_files': '/home/mandana/CONP/conp-dataset/projects/Learning_Naturalistic_Structure__Processed_fMRI_dataset/sub-06_space-MNI152NLin2009cAsym_desc-grey_mask.nii.gz'}
+[ INFO ] Running: docker pull mcin/docker-fsl:latest
+latest: Pulling from mcin/docker-fsl
+a3ed95caeb02: Already exists
+1534505fcbc6: Already exists
+a3ed95caeb02: Already exists
+a3ed95caeb02: Already exists
+2f340105e18c: Already exists
+8bce4574a6b8: Already exists
+1378af22889c: Already exists
+69f6686a23f1: Already exists
+Digest: sha256:095059aea79eba45f9c9e422ac9641ceee7a1b159ad6bb5f8c4f6bdc13463deb
+Status: Image is up to date for mcin/docker-fsl:latest
+[ INFO ] Running: chmod 755 /home/mandana/CONP/conp-dataset/temp-385878101330-1613573686696.localExec.boshjob.sh
+[ INFO ] Running: docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -w /home/mandana/CONP/conp-dataset mcin/docker-fsl:latest /home/mandana/CONP/conp-dataset/temp-385878101330-1613573686696.localExec.boshjob.sh
+Exception: Not enough classes detected to init KMeans
+mkdir: cannot create directory 'fast': File exists
+mv: cannot stat 'fast_*': No such file or directory
+[ INFO ] Data capture from execution saved to cache as fsl_fast_2021-02-17_09h54m48s376161ms.json
+[32mShell command
+fast -o fast /home/mandana/CONP/conp-dataset/projects/Learning_Naturalistic_Structure__Processed_fMRI_dataset/sub-06_space-MNI152NLin2009cAsym_desc-grey_mask.nii.gz; mkdir fast; mv fast_* fast
+[32mContainer location
+Pulled from Docker
+[32mContainer command
+docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -w /home/mandana/CONP/conp-dataset mcin/docker-fsl:latest /home/mandana/CONP/conp-dataset/temp-385878101330-1613573686696.localExec.boshjob.sh
+[32mExit code
+1
+[32mError message
+[31m
+[32mOutput files
+	- fast (output_dir, Required)
+[32mMissing files
+[31m
+
