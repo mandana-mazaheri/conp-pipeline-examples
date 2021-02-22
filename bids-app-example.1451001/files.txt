@@ -1,7 +1,0 @@
-conp-dataset/projects/openpain/BrainNetworkChange_Mano
-conp-dataset/projects/openpain/placebo_1
-conp-dataset/projects/openpain/placebo_predict_tetreault
-conp-dataset/projects/openpain/subacute_longitudinal_study
-conp-dataset/projects/preventad-open-bids
-conp-dataset/projects/SIMON-dataset
-conp-dataset/projects/visual-working-memory

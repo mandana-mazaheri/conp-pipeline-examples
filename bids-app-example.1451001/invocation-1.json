@@ -1,6 +1,0 @@
-{
-    "bids_dir": "conp-dataset/projects/openpain/placebo_1",
-    "participant_label": [ "PL001" ],
-    "output_dir_name": "results",
-    "analysis_level": "participant"
-}
