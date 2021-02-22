@@ -1,0 +1,5 @@
+{
+    "image_file":"/home/mandana/CONP/conp-dataset/projects/preventad-open-bids/BIDS_dataset/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w.nii.gz",
+    "mask_file": "/home/mandana/CONP/pipelines/oneVoxel/fslbet/masks/mask-13.nii.gz",
+    "output_directory": "/home/mandana/CONP/pipelines/oneVoxel/output/"
+}

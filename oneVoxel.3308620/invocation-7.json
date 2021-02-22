@@ -1,0 +1,5 @@
+{
+    "image_file":"/home/mandana/CONP/conp-dataset/projects/openpain/BrainNetworkChange_Mano/sub_10_control_site_2/anat/sub_10_control_site_2_T1w.nii.gz",
+    "mask_file": "/home/mandana/CONP/pipelines/oneVoxel/fslbet/masks/mask-7.nii.gz",
+    "output_directory": "/home/mandana/CONP/pipelines/oneVoxel/output/"
+}

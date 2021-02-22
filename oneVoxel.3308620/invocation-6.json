@@ -1,0 +1,5 @@
+{
+    "image_file":"/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/anat/sub-10_T1w.nii.gz",
+    "mask_file": "/home/mandana/CONP/pipelines/oneVoxel/fslbet/masks/mask-6.nii.gz",
+    "output_directory": "/home/mandana/CONP/pipelines/oneVoxel/output/"
+}

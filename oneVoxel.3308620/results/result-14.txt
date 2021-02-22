@@ -1,0 +1,39 @@
+Docker version 17.05.0-ce, build 89658be
+v0.3.0rc3: Pulling from gkiar/onevoxel
+Digest: sha256:9b2dfcb35dbbc1d173148457ee4c7bba5355c019e387c0920b87b6b31cba3a3a
+Status: Image is up to date for gkiar/onevoxel:v0.3.0rc3
+/usr/local/lib/python3.7/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.7/site-packages/nibabel/loadsave.py", line 40, in load
+    stat_result = os.stat(filename)
+FileNotFoundError: [Errno 2] No such file or directory: ''
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/bin/onevox", line 10, in <module>
+    sys.exit(main())
+  File "/usr/local/lib/python3.7/site-packages/onevox/cli.py", line 221, in main
+    driver(image_file, output_dir, **vars(results))
+  File "/usr/local/lib/python3.7/site-packages/onevox/cli.py", line 54, in driver
+    image_loaded = nib.load(image_file)
+  File "/usr/local/lib/python3.7/site-packages/nibabel/loadsave.py", line 42, in load
+    raise FileNotFoundError("No such file or no access: '%s'" % filename)
+FileNotFoundError: No such file or no access: ''
+[32mShell command
+onevox '' /home/mandana/CONP/pipelines/oneVoxel/output/ --mask_file /home/mandana/CONP/pipelines/oneVoxel/fslbet/masks/mask-14.nii.gz --intensity 0.01 --erode 3 --repeat 1 --mode single
+[32mContainer location
+Pulled from Docker
+[32mContainer command
+docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP:/home/mandana/CONP -w /home/mandana/CONP gkiar/onevoxel:v0.3.0rc3 /home/mandana/CONP/temp-5222683856-1614005526817.localExec.boshjob.sh
+[32mExit code
+1
+[32mError message
+[31m
+[32mOutput files
+	- /home/mandana/CONP/pipelines/oneVoxel/output/inner_binarymask_1vox-3d192916.nii.gz (noisy_image, Required)
+	- /home/mandana/CONP/pipelines/oneVoxel/output/inner_binarymask_1vox-3d192916.json (noise_summary, Required)
+[32mMissing files
+[31m
+

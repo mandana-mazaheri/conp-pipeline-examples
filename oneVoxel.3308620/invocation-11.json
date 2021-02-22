@@ -1,0 +1,5 @@
+{
+    "image_file":"/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-010/anat/sub-032633_ses-010_run-1_T2w.nii.gz",
+    "mask_file": "/home/mandana/CONP/pipelines/oneVoxel/fslbet/masks/mask-11.nii.gz",
+    "output_directory": "/home/mandana/CONP/pipelines/oneVoxel/output/"
+}

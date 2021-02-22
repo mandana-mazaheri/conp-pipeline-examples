@@ -1,0 +1,5 @@
+{
+    "image_file":"/home/mandana/CONP/conp-dataset/projects/openpain/placebo_predict_tetreault/sub-01/func/sub-01_task-rest_bold.nii.gz",
+    "mask_file": "/home/mandana/CONP/pipelines/oneVoxel/fslbet/masks/mask-9.nii.gz",
+    "output_directory": "/home/mandana/CONP/pipelines/oneVoxel/output/"
+}

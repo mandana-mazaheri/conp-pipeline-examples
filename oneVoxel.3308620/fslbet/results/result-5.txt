@@ -1,0 +1,30 @@
+Docker version 17.05.0-ce, build 89658be
+latest: Pulling from mcin/docker-fsl
+a3ed95caeb02: Already exists
+1534505fcbc6: Already exists
+a3ed95caeb02: Already exists
+a3ed95caeb02: Already exists
+2f340105e18c: Already exists
+8bce4574a6b8: Already exists
+1378af22889c: Already exists
+69f6686a23f1: Already exists
+Digest: sha256:095059aea79eba45f9c9e422ac9641ceee7a1b159ad6bb5f8c4f6bdc13463deb
+Status: Image is up to date for mcin/docker-fsl:latest
+Image Exception : #22 :: ERROR: Could not open image /home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_task-retrieval-bold_001
+terminate called after throwing an instance of 'RBD_COMMON::BaseException'
+/usr/local/fsl/bin/bet: line 393:    78 Aborted                 (core dumped) ${FSLDIR}/bin/bet2 $IN $OUT $bet2opts
+[32mShell command
+bet /home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_task-retrieval-bold_001.mnc mask-5
+[32mContainer location
+Pulled from Docker
+[32mContainer command
+docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP/conp-dataset:/home/mandana/CONP/conp-dataset -w /home/mandana/CONP/conp-dataset mcin/docker-fsl:latest /home/mandana/CONP/conp-dataset/temp-987283978632-1613245997159.localExec.boshjob.sh
+[32mExit code
+0
+[32mError message
+
+[32mOutput files
+
+[32mMissing files
+
+

@@ -1,0 +1,5 @@
+{
+    "image_file":"FILENAME",
+    "mask_file": "MASK",
+    "output_directory": "/home/mandana/CONP/pipelines/oneVoxel/output/"
+}

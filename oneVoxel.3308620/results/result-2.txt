@@ -1,0 +1,22 @@
+Docker version 17.05.0-ce, build 89658be
+v0.3.0rc3: Pulling from gkiar/onevoxel
+Digest: sha256:9b2dfcb35dbbc1d173148457ee4c7bba5355c019e387c0920b87b6b31cba3a3a
+Status: Image is up to date for gkiar/onevoxel:v0.3.0rc3
+/usr/local/lib/python3.7/site-packages/sklearn/externals/joblib/__init__.py:15: DeprecationWarning: sklearn.externals.joblib is deprecated in 0.21 and will be removed in 0.23. Please import this functionality directly from joblib, which can be installed with: pip install joblib. If this warning is raised when loading pickled models, you may need to re-serialize those models with scikit-learn 0.21+.
+  warnings.warn(msg, category=DeprecationWarning)
+[32mShell command
+onevox /home/mandana/CONP/conp-dataset/projects/Khanlab/HCPUR100-Template/sub-HCPUR100/anat/sub-HCPUR100_t1w.nii.gz /home/mandana/CONP/pipelines/oneVoxel/output/ --mask_file /home/mandana/CONP/pipelines/oneVoxel/fslbet/masks/mask-2.nii.gz --intensity 0.01 --erode 3 --repeat 1 --mode single
+[32mContainer location
+Pulled from Docker
+[32mContainer command
+docker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP:/home/mandana/CONP -w /home/mandana/CONP gkiar/onevoxel:v0.3.0rc3 /home/mandana/CONP/temp-1193633483018-1614005403609.localExec.boshjob.sh
+[32mExit code
+0
+[32mError message
+[31m
+[32mOutput files
+	- /home/mandana/CONP/pipelines/oneVoxel/output/inner_binarymask_1vox-3d192916.nii.gz (noisy_image, Required)
+	- /home/mandana/CONP/pipelines/oneVoxel/output/inner_binarymask_1vox-3d192916.json (noise_summary, Required)
+[32mMissing files
+[31m
+
