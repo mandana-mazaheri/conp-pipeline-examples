@@ -1,0 +1,9 @@
+/home/mandana/CONP/conp-dataset/projects/openpain/subacute_longitudinal_study
+/home/mandana/CONP/conp-dataset/projects/openpain/thermal/
+/home/mandana/CONP/conp-dataset/projects/openpain/BrainNetworkChange_Mano/
+/home/mandana/CONP/conp-dataset/projects/openpain/cbp_resting/
+/home/mandana/CONP/conp-dataset/projects/visual-working-memory/
+/home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/
+/home/mandana/CONP/conp-dataset/projects/openpain/placebo_predict_tetreault/
+/home/mandana/CONP/conp-dataset/projects/preventad-open-bids/BIDS_dataset/
+/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/

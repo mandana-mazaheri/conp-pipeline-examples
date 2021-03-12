@@ -1,0 +1,9 @@
+
+{
+    "bids_dir": "FILENAME",
+    "output_dir": "/home/mandana/CONP/pipelines/BIDS-App-fmriprep.1895219/output",
+    "run_reconall": true,
+    "anat_only": true,
+    "fs_license_file": "/home/mandana/CONP/pipelines/FreeSurfer-Recon-all/license.txt",
+    "analysis_level": "participant"
+}

@@ -1,0 +1,294 @@
+Docker version 17.05.0-ce, build 89658be
+1.2.3: Pulling from poldracklab/fmriprep
+Digest: sha256:b57c994020c0873e366e6ba7e28d937b580f5a5bb9021e07a177db712d2bebd4
+Status: Image is up to date for poldracklab/fmriprep:1.2.3
+/usr/local/miniconda/lib/python3.6/site-packages/bids/grabbids/__init__.py:6: FutureWarning: grabbids has been renamed to layout in version 0.6.5, and will be removed in version 0.8
+  warnings.warn("grabbids has been renamed to layout in version 0.6.5, and will be removed in version 0.8", FutureWarning)
+210224-16:01:00,451 nipype.workflow IMPORTANT:
+	 
+    Running fMRIPREP version 1.2.3:
+      * BIDS dataset path: /home/mandana/CONP/conp-dataset/projects/visual-working-memory.
+      * Participant list: ['10'].
+      * Run identifier: 20210224-160100_1e258605-8b9f-49f5-aea5-3a294e968561.
+    
+210224-16:01:01,870 nipype.workflow IMPORTANT:
+	 Works derived from this fMRIPrep execution should include the following boilerplate:
+
+
+Results included in this manuscript come from preprocessing
+performed using *fMRIPprep* 1.2.3
+(@fmriprep1; @fmriprep2; RRID:SCR_016216),
+which is based on *Nipype* 1.1.6-dev
+(@nipype1; @nipype2; RRID:SCR_002502).
+
+Anatomical data preprocessing
+
+: The T1-weighted (T1w) image was corrected for intensity non-uniformity (INU)
+using `N4BiasFieldCorrection` [@n4, ANTs 2.2.0],
+and used as T1w-reference throughout the workflow.
+The T1w-reference was then skull-stripped using `antsBrainExtraction.sh`
+(ANTs 2.2.0), using OASIS as target template.
+Spatial normalization to the ICBM 152 Nonlinear Asymmetrical
+template version 2009c [@mni, RRID:SCR_008796] was performed
+through nonlinear registration with `antsRegistration`
+[ANTs 2.2.0, RRID:SCR_004757, @ants], using
+brain-extracted versions of both T1w volume and template.
+Brain tissue segmentation of cerebrospinal fluid (CSF),
+white-matter (WM) and gray-matter (GM) was performed on
+the brain-extracted T1w using `fast` [FSL 5.0.9, RRID:SCR_002823,
+@fsl_fast].
+
+
+Many internal operations of *fMRIPrep* use
+*Nilearn* 0.4.2 [@nilearn, RRID:SCR_001362],
+mostly within the functional processing workflow.
+For more details of the pipeline, see [the section corresponding
+to workflows in *fMRIPrep*'s documentation](https://fmriprep.readthedocs.io/en/latest/workflows.html "FMRIPrep's documentation").
+
+
+### References
+
+
+[WARNING] This document format requires a nonempty <title> element.
+  Please specify either 'title' or 'pagetitle' in the metadata.
+  Falling back to 'CITATION'
+/usr/local/miniconda/lib/python3.6/site-packages/bids/grabbids/__init__.py:6: FutureWarning: grabbids has been renamed to layout in version 0.6.5, and will be removed in version 0.8
+  warnings.warn("grabbids has been renamed to layout in version 0.6.5, and will be removed in version 0.8", FutureWarning)
+210224-16:01:05,868 nipype.workflow INFO:
+	 [Node] Setting-up "fmriprep_wf.single_subject_10_wf.bidssrc" in "/home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/bidssrc".
+210224-16:01:05,870 nipype.workflow INFO:
+	 [Node] Running "bidssrc" ("fmriprep.interfaces.bids.BIDSDataGrabber")
+210224-16:01:05,871 nipype.interface WARNING:
+	 No 't2w' images found for sub-<undefined>
+210224-16:01:05,871 nipype.interface WARNING:
+	 No 'flair' images found for sub-<undefined>
+210224-16:01:05,871 nipype.interface WARNING:
+	 No 'fmap' images found for sub-<undefined>
+210224-16:01:05,871 nipype.interface WARNING:
+	 No 'sbref' images found for sub-<undefined>
+210224-16:01:05,871 nipype.interface WARNING:
+	 No 'roi' images found for sub-<undefined>
+210224-16:01:05,874 nipype.workflow INFO:
+	 [Node] Finished "fmriprep_wf.single_subject_10_wf.bidssrc".
+210224-16:01:07,822 nipype.workflow INFO:
+	 [Node] Setting-up "fmriprep_wf.single_subject_10_wf.anat_preproc_wf.anat_template_wf.t1_template_dimensions" in "/home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/anat_preproc_wf/anat_template_wf/t1_template_dimensions".
+210224-16:01:07,824 nipype.workflow INFO:
+	 [Node] Running "t1_template_dimensions" ("fmriprep.interfaces.images.TemplateDimensions")
+210224-16:01:07,936 nipype.workflow INFO:
+	 [Node] Finished "fmriprep_wf.single_subject_10_wf.anat_preproc_wf.anat_template_wf.t1_template_dimensions".
+210224-16:01:08,731 nipype.workflow WARNING:
+	 Error while checking node hash, forcing re-run. Although this error may not prevent the workflow from running, it could indicate a major problem. Please report a new issue at https://github.com/nipy/nipype/issues adding the following information:
+
+	Node: fmriprep_wf.single_subject_10_wf.summary
+	Interface: fmriprep.interfaces.reports.SubjectSummary
+	Traceback:
+Traceback (most recent call last):
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/base.py", line 338, in _local_hash_check
+    cached, updated = self.procs[jobid].is_cached()
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 294, in is_cached
+    hashed_inputs, hashvalue = self._get_hashval()
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 488, in _get_hashval
+    self._get_inputs()
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 531, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 276, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/interfaces/base/traits_extension.py", line 341, in validate
+    value = super(MultiObject, self).validate(object, name, newvalue)
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_types.py", line 2336, in validate
+    return TraitListObject( self, object, name, value )
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2313, in __init__
+    raise excp
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in __init__
+    value = [ validate( object, name, val ) for val in value ]
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in <listcomp>
+    value = [ validate( object, name, val ) for val in value ]
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 1983, in validate
+    return self.slow_validate( object, name, value )
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 1991, in slow_validate
+    self.error( object, name, value )
+
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 172, in error
+    value )
+
+traits.trait_errors.TraitError: Each element of the 'bold' trait of a SubjectSummaryInputSpec instance must be an existing file name or a list of items which are an existing file name, but a value of '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz' <class 'str'> was specified.
+Error setting node input:
+Node: summary
+input: bold
+results_file: /home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/bidssrc/result_bidssrc.pklz
+value: ['/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz', '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-02_bold.nii.gz', '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-03_bold.nii.gz']
+
+210224-16:01:08,733 nipype.workflow ERROR:
+	 Node summary failed to run on host fdc55419d8ea.
+210224-16:01:08,734 nipype.workflow ERROR:
+	 Saving crash info to /home/mandana/CONP/pipelines/BIDS-App-fmriprep.1895219/output/fmriprep/sub-10/log/20210224-160100_1e258605-8b9f-49f5-aea5-3a294e968561/crash-20210224-160108-root-summary-f62c207e-e7f7-4599-b333-7e9577a56734.txt
+Traceback (most recent call last):
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/multiproc.py", line 308, in _send_procs_to_workers
+    self.procs[jobid].run(updatehash=updatehash)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 408, in run
+    cached, updated = self.is_cached()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 294, in is_cached
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 488, in _get_hashval
+    self._get_inputs()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 531, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 276, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/interfaces/base/traits_extension.py", line 341, in validate
+    value = super(MultiObject, self).validate(object, name, newvalue)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_types.py", line 2336, in validate
+    return TraitListObject( self, object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2313, in __init__
+    raise excp
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in __init__
+    value = [ validate( object, name, val ) for val in value ]
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in <listcomp>
+    value = [ validate( object, name, val ) for val in value ]
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 1983, in validate
+    return self.slow_validate( object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 1991, in slow_validate
+    self.error( object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 172, in error
+    value )
+traits.trait_errors.TraitError: Each element of the 'bold' trait of a SubjectSummaryInputSpec instance must be an existing file name or a list of items which are an existing file name, but a value of '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz' <class 'str'> was specified.
+Error setting node input:
+Node: summary
+input: bold
+results_file: /home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/bidssrc/result_bidssrc.pklz
+value: ['/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz', '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-02_bold.nii.gz', '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-03_bold.nii.gz']
+
+Preprocessing did not finish successfully. Errors occurred while processing data from participants: 10 (1). Check the HTML reports for details.
+210224-16:01:09,346 nipype.workflow INFO:
+	 [Node] Setting-up "fmriprep_wf.single_subject_10_wf.anat_preproc_wf.anat_derivatives_wf.t1_name" in "/home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/anat_preproc_wf/anat_derivatives_wf/t1_name".
+210224-16:01:09,348 nipype.workflow INFO:
+	 [Node] Running "t1_name" ("nipype.interfaces.utility.wrappers.Function")
+210224-16:01:09,351 nipype.workflow INFO:
+	 [Node] Finished "fmriprep_wf.single_subject_10_wf.anat_preproc_wf.anat_derivatives_wf.t1_name".
+210224-16:01:09,944 nipype.workflow INFO:
+	 [Node] Setting-up "fmriprep_wf.single_subject_10_wf.anat_preproc_wf.anat_template_wf.t1_conform" in "/home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/anat_preproc_wf/anat_template_wf/t1_conform".
+210224-16:01:09,946 nipype.workflow INFO:
+	 [Node] Setting-up "_t1_conform0" in "/home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/anat_preproc_wf/anat_template_wf/t1_conform/mapflow/_t1_conform0".
+210224-16:01:09,947 nipype.workflow INFO:
+	 [Node] Running "_t1_conform0" ("fmriprep.interfaces.images.Conform")
+210224-16:01:10,417 nipype.workflow INFO:
+	 [Node] Finished "_t1_conform0".
+210224-16:01:10,418 nipype.workflow INFO:
+	 [Node] Finished "fmriprep_wf.single_subject_10_wf.anat_preproc_wf.anat_template_wf.t1_conform".
+Traceback (most recent call last):
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/multiproc.py", line 308, in _send_procs_to_workers
+    self.procs[jobid].run(updatehash=updatehash)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 408, in run
+    cached, updated = self.is_cached()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 294, in is_cached
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 488, in _get_hashval
+    self._get_inputs()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 531, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 276, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/interfaces/base/traits_extension.py", line 341, in validate
+    value = super(MultiObject, self).validate(object, name, newvalue)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_types.py", line 2336, in validate
+    return TraitListObject( self, object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2313, in __init__
+    raise excp
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in __init__
+    value = [ validate( object, name, val ) for val in value ]
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in <listcomp>
+    value = [ validate( object, name, val ) for val in value ]
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 1983, in validate
+    return self.slow_validate( object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 1991, in slow_validate
+    self.error( object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 172, in error
+    value )
+traits.trait_errors.TraitError: Each element of the 'bold' trait of a SubjectSummaryInputSpec instance must be an existing file name or a list of items which are an existing file name, but a value of '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz' <class 'str'> was specified.
+Error setting node input:
+Node: summary
+input: bold
+results_file: /home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/bidssrc/result_bidssrc.pklz
+value: ['/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz', '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-02_bold.nii.gz', '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-03_bold.nii.gz']
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/local/miniconda/bin/fmriprep", line 11, in <module>
+    sys.exit(main())
+  File "/usr/local/miniconda/lib/python3.6/site-packages/fmriprep/cli/run.py", line 376, in main
+    fmriprep_wf.run(**plugin_settings)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/workflows.py", line 595, in run
+    runner.run(execgraph, updatehash=updatehash, config=self.config)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/base.py", line 184, in run
+    self._send_procs_to_workers(updatehash=updatehash, graph=graph)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/multiproc.py", line 316, in _send_procs_to_workers
+    'traceback': traceback
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/base.py", line 225, in _clean_queue
+    raise RuntimeError("".join(result['traceback']))
+RuntimeError: Traceback (most recent call last):
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/plugins/multiproc.py", line 308, in _send_procs_to_workers
+    self.procs[jobid].run(updatehash=updatehash)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 408, in run
+    cached, updated = self.is_cached()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 294, in is_cached
+    hashed_inputs, hashvalue = self._get_hashval()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 488, in _get_hashval
+    self._get_inputs()
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 531, in _get_inputs
+    self.set_input(key, deepcopy(output_value))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/pipeline/engine/nodes.py", line 276, in set_input
+    setattr(self.inputs, parameter, deepcopy(val))
+  File "/usr/local/miniconda/lib/python3.6/site-packages/nipype/interfaces/base/traits_extension.py", line 341, in validate
+    value = super(MultiObject, self).validate(object, name, newvalue)
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_types.py", line 2336, in validate
+    return TraitListObject( self, object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2313, in __init__
+    raise excp
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in __init__
+    value = [ validate( object, name, val ) for val in value ]
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 2305, in <listcomp>
+    value = [ validate( object, name, val ) for val in value ]
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 1983, in validate
+    return self.slow_validate( object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 1991, in slow_validate
+    self.error( object, name, value )
+  File "/usr/local/miniconda/lib/python3.6/site-packages/traits/trait_handlers.py", line 172, in error
+    value )
+traits.trait_errors.TraitError: Each element of the 'bold' trait of a SubjectSummaryInputSpec instance must be an existing file name or a list of items which are an existing file name, but a value of '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz' <class 'str'> was specified.
+Error setting node input:
+Node: summary
+input: bold
+results_file: /home/mandana/CONP/work/fmriprep_wf/single_subject_10_wf/bidssrc/result_bidssrc.pklz
+value: ['/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz', '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-02_bold.nii.gz', '/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-03_bold.nii.gz']
+
+[ ERROR ] Invalid query (output-files). See --help.
+[ ERROR ] Invalid query (output-files/optional=False). See --help.
+[ ERROR ] Invalid query (output-files/optional=True). See --help.
+Shell command
+[0mfmriprep /home/mandana/CONP/conp-dataset/projects/visual-working-memory/ /home/mandana/CONP/pipelines/BIDS-App-fmriprep.1895219/output participant --anat-only --bold2t1w-dof 6 --output-space template fsaverage5 --template MNI152NLin2009cAsym --template-resampling-grid native --aroma-melodic-dimensionality -200 --skull-strip-template OASIS --fs-license-file /home/mandana/CONP/pipelines/FreeSurfer-Recon-all/license.txt --fs-no-reconall
+Container location
+[0mPulled from Docker
+Container command
+[0mdocker run --entrypoint=/bin/sh --rm  -v /home/mandana/CONP:/home/mandana/CONP -w /home/mandana/CONP poldracklab/fmriprep:1.2.3 /home/mandana/CONP/temp-319564971435-1614182457757.localExec.boshjob.sh
+Exit code
+[0m1
+Error message
+[0m[0m
+Output files
+[0m
+Missing files
+[0m[0m
+
