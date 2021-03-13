@@ -1,0 +1,12 @@
+/home/mandana/CONP/conp-dataset/projects/openpain/subacute_longitudinal_study/sub-010/ses-visit4/anat/sub-010_ses-visit4_T1w.nii.gz
+/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-010/anat/sub-032633_ses-010_run-1_T2w.nii.gz
+/home/mandana/CONP/conp-dataset/projects/Khanlab/HCPUR100-Template/sub-HCPUR100/anat/sub-HCPUR100_t1w.nii.gz
+/home/mandana/CONP/conp-dataset/projects/openpain/placebo_1/PL011/visit2/anat/PL011_visit2_t1_defaced.nii.gz
+/home/mandana/CONP/conp-dataset/projects/openpain/cbp_resting/cbp10/t1/t1.nii.gz
+/home/mandana/CONP/conp-dataset/projects/openpain/thermal/healthy010/t1/highres001_full_normfilter.nii.gz
+/home/mandana/CONP/conp-dataset/projects/openpain/BrainNetworkChange_Mano/sub_10_control_site_2/anat/sub_10_control_site_2_T1w.nii.gz
+/home/mandana/CONP/conp-dataset/projects/openpain/placebo_predict_tetreault/sub-01/anat/sub-01_T1w.nii.gz
+/home/mandana/CONP/conp-dataset/projects/preventad-open/1000173/NAPBL00/images/preventad_1000173_NAPBL00_asl_001.mnc
+/home/mandana/CONP/conp-dataset/projects/preventad-open-bids/BIDS_dataset/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w.nii.gz
+/home/mandana/CONP/conp-dataset/projects/Learning_Naturalistic_Structure__Processed_fMRI_dataset/sub-06_space-MNI152NLin2009cAsym_desc-grey_mask.nii.gz
+/home/mandana/CONP/conp-dataset/projects/multicenter-phantom/phantom_999876_MNI_20130903_t2w_001.mnc
