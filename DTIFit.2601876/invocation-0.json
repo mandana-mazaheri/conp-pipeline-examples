@@ -1,0 +1,11 @@
+
+
+
+{ 
+
+"bvals": "/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-005/dwi/sub-032633_ses-005_run-1_dwi.bval",
+    "bvecs": "/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-005/dwi/sub-032633_ses-005_run-1_dwi.bvec",
+    "dwi": "/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-005/dwi/sub-032633_ses-005_run-1_dwi.nii.gz",
+    "mask": "/home/mandana/CONP/pipelines/DTIFit/bet_mask/fsl-bet_mask_DTIFit.nii.gz"
+}
+

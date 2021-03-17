@@ -1,0 +1,6 @@
+{
+    "bvals": "f_bvals_70.mnc",
+    "bvecs": "f_bvecs_14.mnc",
+    "dwi": "f_dwi_51.cpp",
+    "mask": "f_mask_06"
+}
