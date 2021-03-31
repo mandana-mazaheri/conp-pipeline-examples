@@ -1,0 +1,15 @@
+
+
+{
+    "fmri": "/home/mandana/CONP/conp-dataset/projects/BigBrain_3DClassifiedVolumes/bigbrain-datalad/3D_Volumes/MNI-ADNI_Space/nii/mni_adni_hi_t1w_tal_nlin_sym.nii.gz",
+    "out_dir": "/home/mandana/CONP/conp-dataset/projects/BigBrain_3DClassifiedVolumes/bigbrain-datalad/3D_Volumes/MNI-ADNI_Space/nii/",
+    "mask": "/home/mandana/CONP/pipelines/SPARK_1of3.4010734/masks/MASK_fsl_SPARK_1.nii",
+    "nb_resamplings": 100,
+    "network_scales": [
+        10,
+        2,
+        30
+    ],
+    "nb_iterations": 20,
+    "p_value": 0.05
+}

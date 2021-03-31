@@ -1,0 +1,15 @@
+
+
+{
+    "fmri": "/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz",
+    "out_dir": "/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/",
+    "mask": "/home/mandana/CONP/pipelines/SPARK_1of3.4010734/masks/MASK_fsl_SPARK.nii",
+    "nb_resamplings": 100,
+    "network_scales": [
+        10,
+        2,
+        30
+    ],
+    "nb_iterations": 20,
+    "p_value": 0.05
+}

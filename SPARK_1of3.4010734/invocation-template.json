@@ -1,0 +1,13 @@
+{
+    "fmri": "f_fmri_83.nii.gz",
+    "out_dir": "str_out_dir_ny",
+    "mask": "f_mask_54.csv",
+    "nb_resamplings": 21,
+    "network_scales": [
+        17,
+        41,
+        43
+    ],
+    "nb_iterations": 34,
+    "p_value": 0.324
+}

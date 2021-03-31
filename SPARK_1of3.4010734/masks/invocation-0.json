@@ -1,0 +1,6 @@
+
+
+{
+    "infile": "/home/mandana/CONP/conp-dataset/projects/visual-working-memory/sub-10/func/sub-10_task-WM_run-01_bold.nii.gz", 
+    "maskfile": "MASK_fsl_SPARK"
+}

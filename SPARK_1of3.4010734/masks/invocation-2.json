@@ -1,0 +1,6 @@
+
+
+{
+    "infile": "/home/mandana/CONP/conp-dataset/projects/BigBrain/3D_Volumes/MNI-ADNI_Space/nii/mni_adni_hi_t1w_tal_nlin_sym.nii.gz", 
+    "maskfile": "MASK_fsl_SPARK_2"
+}
