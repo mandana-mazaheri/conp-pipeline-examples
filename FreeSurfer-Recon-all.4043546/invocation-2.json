@@ -1,0 +1,6 @@
+{
+    "license": "license_FreeSurfer/license.txt",
+    "subjid": "9962084",
+    "input": "conp-dataset/projects/preventad-open-bids/BIDS_dataset/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w.nii.gz",
+    "directives": "-all"
+}

@@ -1,0 +1,6 @@
+{
+    "license": "license_FreeSurfer/license.txt",
+    "subjid": "PL011",
+    "input": "conp-dataset/projects/openpain/placebo_1/PL011/visit3/anat/PL011_visit3_t1_defaced.nii.gz",
+    "directives": "-all"
+}

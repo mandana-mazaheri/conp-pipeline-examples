@@ -1,0 +1,6 @@
+{
+    "license": "license_FreeSurfer/license.txt",
+    "subjid": "010",
+    "input": "conp-dataset/projects/openpain/subacute_longitudinal_study/sub-010/ses-visit1/func/sub-010_ses-visit1_task-mv_bold.nii.gz",
+    "directives": "-all"
+}

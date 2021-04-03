@@ -1,0 +1,6 @@
+{
+    "license": "license_FreeSurfer/license.txt",
+    "subjid": "032633",
+    "input": "conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-010/anat/sub-032633_ses-010_run-1_T1w.nii.gz",
+    "directives": "-all"
+}

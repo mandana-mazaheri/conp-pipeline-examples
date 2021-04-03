@@ -1,0 +1,6 @@
+{
+    "license": "license_FreeSurfer/license.txt",
+    "subjid": "sub_10_control_site_2",
+    "input": "conp-dataset/projects/openpain/BrainNetworkChange_Mano/sub_10_control_site_2/anat/sub_10_control_site_2_T1w.nii.gz",
+    "directives": "-all"
+}

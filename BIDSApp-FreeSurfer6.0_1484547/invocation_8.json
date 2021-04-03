@@ -1,0 +1,7 @@
+{
+    "bids_dir": "/home/mandana/CONP/conp-dataset/projects/openpain/cbp_resting",
+    "analysis_level": "participant",
+    "refine_pial": "None",
+    "license_file": "/home/mandana/CONP/license_FreeSurfer/license.txt",
+    "output_dir" : "/home/mandana/CONP/output_dir"
+}

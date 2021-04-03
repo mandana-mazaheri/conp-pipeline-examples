@@ -1,0 +1,6 @@
+{
+    "license": "license_FreeSurfer/license.txt",
+    "subjid": "01",
+    "input": "conp-dataset/projects/Learning_Naturalistic_Structure__Processed_fMRI_dataset/sub-01_task-movie_run-01_space-MNI152NLin2009cAsym_desc-postproc_bold.nii.gz",
+    "directives": "-all"
+}
