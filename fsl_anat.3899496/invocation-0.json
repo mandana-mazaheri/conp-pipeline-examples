@@ -1,0 +1,5 @@
+{
+    "infile": "/home/mandana/CONP/conp-dataset/projects/Learning_Naturalistic_Structure__Processed_fMRI_dataset/sub-06_space-MNI152NLin2009cAsym_desc-grey_mask.nii.gz",
+    "outdir": "/home/mandana/CONP/pipelines/fsl_anat/results/"
+}
+
