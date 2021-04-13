@@ -1,0 +1,4 @@
+{
+    "mask": "/home/mandana/CONP/output_fsl_fast_SIMON_dwi/output_fsl_fast_SIMON_dwi_pve_2.nii.gz",
+    "output": "/home/mandana/CONP/output_mask2boundary/mask2boundary.nii.gz"
+}

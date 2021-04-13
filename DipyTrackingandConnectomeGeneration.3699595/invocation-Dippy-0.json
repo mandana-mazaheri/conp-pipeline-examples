@@ -1,0 +1,9 @@
+{
+    "diffusion_image": "/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-005/dwi/sub-032633_ses-005_run-1_dwi.nii.gz",
+    "bvecs": "/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-005/dwi/sub-032633_ses-005_run-1_dwi.bvec",
+    "bvals": "/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-005/dwi/sub-032633_ses-005_run-1_dwi.bval",
+    "whitematter_mask": "/home/mandana/CONP/output_fsl_fast_SIMON_dwi/output_fsl_fast_SIMON_dwi_pve_2.nii.gz",
+    "seed_mask": "/home/mandana/CONP/output_mask2boundary/mask2boundary.nii.gz",
+    "output_directory": "/home/mandana/CONP/conp-dataset/projects/SIMON-dataset/data_BIDS/sub-032633/ses-005/dwi/"
+}
+
