@@ -1,0 +1,6 @@
+{
+    "anatomical_image": "/home/mandana/CONP/conp-dataset/projects/openpain/cbp_resting/cbp10/t1/t1.nii.gz",
+    "brain_probability_mask": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0_BrainCerebellumProbabilityMask.nii.gz",
+    "brain_template": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0.nii.gz"
+}
+

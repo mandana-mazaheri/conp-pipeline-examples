@@ -1,0 +1,6 @@
+{
+    "anatomical_image": "/home/mandana/CONP/conp-dataset/projects/preventad-open-bids/BIDS_dataset/sub-9962084/ses-NAPEN00/anat/sub-9962084_ses-NAPEN00_run-001_T1w.nii.gz",
+    "brain_probability_mask": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0_BrainCerebellumProbabilityMask.nii.gz",
+    "brain_template": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0.nii.gz"
+}
+

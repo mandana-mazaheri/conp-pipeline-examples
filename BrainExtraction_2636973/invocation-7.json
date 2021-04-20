@@ -1,0 +1,6 @@
+{
+    "anatomical_image": "/home/mandana/CONP/conp-dataset/projects/Learning_Naturalistic_Structure__Processed_fMRI_dataset/sub-01_task-movie_run-01_space-MNI152NLin2009cAsym_desc-postproc_bold.nii.gz",
+    "brain_probability_mask": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0_BrainCerebellumProbabilityMask.nii.gz",
+    "brain_template": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0.nii.gz"
+}
+

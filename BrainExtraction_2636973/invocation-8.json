@@ -1,0 +1,6 @@
+{
+    "anatomical_image": "/home/mandana/CONP/conp-dataset/projects/openpain/thermal/healthy010/t1/highres001_full_normfilter.nii.gz",
+    "brain_probability_mask": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0_BrainCerebellumProbabilityMask.nii.gz",
+    "brain_template": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0.nii.gz"
+}
+

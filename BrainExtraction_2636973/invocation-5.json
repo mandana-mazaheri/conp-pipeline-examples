@@ -1,0 +1,6 @@
+{
+    "anatomical_image": "/home/mandana/CONP/conp-dataset/projects/openpain/BrainNetworkChange_Mano/sub_10_control_site_2/anat/sub_10_control_site_2_T1w.nii.gz",
+    "brain_probability_mask": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0_BrainCerebellumProbabilityMask.nii.gz",
+    "brain_template": "/home/mandana/CONP/MICCAI2012-Multi-Atlas-Challenge-Data/T_template0.nii.gz"
+}
+

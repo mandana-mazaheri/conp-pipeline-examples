@@ -1,0 +1,5 @@
+{
+    "anatomical_image": "conp-dataset/projects/Khanlab/HCPUR100-Template/sub-HCPUR100/anat/sub-HCPUR100_t1w.nii.gz",
+    "brain_probability_mask": "k_sub-HCPUR100_t1w.nii.gz",
+    "brain_template": "k_sub-HCPUR100_t1w.nii.gz"
+}

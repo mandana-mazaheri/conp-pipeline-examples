@@ -1,0 +1,5 @@
+{
+    "anatomical_image": "f_anatomical_image_81.j",
+    "brain_probability_mask": "f_brain_probability_mask_34.nii.gz",
+    "brain_template": "f_brain_template_45.m"
+}
