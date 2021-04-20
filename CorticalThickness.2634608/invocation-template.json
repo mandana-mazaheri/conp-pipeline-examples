@@ -1,0 +1,12 @@
+{
+    "anatomical_image": "f_anatomical_image_44.nii.gz",
+    "brain_probability_mask": "f_brain_probability_mask_96.nii.gz",
+    "brain_template": "f_brain_template_94.mnc",
+    "segmentation_priors": [
+        "f_segmentation_priors_32.m",
+        "f_segmentation_priors_50.csv",
+        "f_segmentation_priors_38",
+        "f_segmentation_priors_72.j"
+    ],
+    "t1_registration_template": "f_t1_registration_template_63.tex"
+}
